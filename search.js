@@ -4,7 +4,7 @@ const logger = require('morgan');
 const router = express.Router();
 router.use(logger('tiny'));
 
-const key = "282178234a0d13aa4a95c3927a365f5981ff29a5";
+const key = "XXXXXXX";
 
 // This contains name and appID for all games on steam.
 // I have a local copy as making a request for it each time would take around 4 seconds.
